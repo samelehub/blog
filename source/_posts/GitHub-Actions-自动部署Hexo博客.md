@@ -17,7 +17,7 @@ date: 2020-07-22 22:40:36
 为了方便下面步骤的进行，我们进行这样的配置：
 
 - 备份博客源文件
-- 在本地仓库创建 hexo 分支
+- 在本地仓库创建 `hexo` 分支
 
 ```sh
 # 克隆项目到本地
@@ -26,12 +26,12 @@ git clone https://github.com/xxx/xxx.github.io.git
 git checkout -b hexo
 ```
 
-- 在 hexo 分支保存博客项目的源代码
+- 在 `hexo` 分支保存博客项目的源代码
 
-  - 将 hexo 分支下的文件除 .git 目录外全部删除
-  - 将博客源码文件拷贝到该目录下，并提交 Commit 到 hexo 分支。
+  - 将 `hexo` 分支下的文件除 `.git` 目录外全部删除
+  - 将博客源码文件拷贝到该目录下，并提交 `commit` 到 `hexo` 分支。
 
-- 将本地 hexo 分支内容提交到 GitHub 远程仓库
+- 将本地 `hexo` 分支内容提交到 `GitHub` 远程仓库
 
 ```sh
 # 源码文件拷贝完后commit到 hexo 分支
@@ -41,7 +41,7 @@ git commit -m ' '
 git push origin hexo:hexo
 ```
 
-现在博客源码和静态文件（即 public 文件夹下的内容）就存放在一个 github 项目中的两个独立分支中了。
+现在博客源码和静态文件（即 `public` 文件夹下的内容）就存放在一个 `github` 项目中的两个独立分支中了。
 
 |  分支  | 说明           |
 | :----: | :------------- |
@@ -160,7 +160,7 @@ git push
 
 `GitHub Actions`将自动监视`hexo`分支，并对任何除带`[ci skip]`的 push 触发执行。
 
-并且除了方便部署，我们同时还在 GitHub 上面成功开启了我们博客源代码的备份，一箭双雕。
+并且除了方便部署，我们同时还在 `GitHub` 上面成功开启了我们博客源代码的备份，一箭双雕。
 
 ## 参考
 
