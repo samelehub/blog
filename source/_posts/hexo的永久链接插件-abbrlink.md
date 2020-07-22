@@ -7,13 +7,9 @@ tags:
 
 ## 前言
 
----
-
 > hexo 的默认永久链接是在\_config.yml 里的配置 permalink: :year/:month/:day/:title/。这种默认配置有个很不能接受的缺点，文件名为中文，会导致 url 链接里面出现中文。这次我来介绍一个比较方便好用的解决方案 hexo-abbrlink 插件。
 
 ## 安装 hexo-abbrlink 插件
-
----
 
 ```sh
 npm install hexo-abbrlink --save

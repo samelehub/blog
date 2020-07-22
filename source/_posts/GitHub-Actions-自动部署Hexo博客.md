@@ -10,8 +10,6 @@ date: 2020-07-22 22:40:36
 
 ## 开始准备
 
----
-
 ### 配置本地和远程仓库
 
 为了方便下面步骤的进行，我们进行这样的配置：
@@ -49,8 +47,6 @@ git push origin hexo:hexo
 | master | 静态页面       |
 
 ## 项目设置
-
----
 
 ### 生成密钥对
 
@@ -94,8 +90,6 @@ deploy:
 
 ## 编写 Action 脚本
 
----
-
 > 此处使用[成熟方案](https://github.com/yrpang/github-actions-hexo)
 
 在根目录下创建 `GitHub Actions workflow` 文件，`.github/workflows/hexo.yml` 然后复制下面代码
@@ -136,8 +130,6 @@ jobs:
 
 ## 自动部署
 
----
-
 经过以上步骤的配置，发布博客的命令就变更为：
 
 ```sh
@@ -154,8 +146,6 @@ git push
 
 ## 小结
 
----
-
 这样，在每次我们将博客的源文件通过 git 推送到 GitHub 的 hexo 分支上后，`GitHub Actions` 就会自动检测并主动开始构建我们的博客静态文件，并自动部署到 GitHub Pages 中。
 
 `GitHub Actions`将自动监视`hexo`分支，并对任何除带`[ci skip]`的 push 触发执行。
@@ -163,8 +153,6 @@ git push
 并且除了方便部署，我们同时还在 `GitHub` 上面成功开启了我们博客源代码的备份，一箭双雕。
 
 ## 参考
-
----
 
 - https://github.com/yrpang/github-actions-hexo
 - https://hdj.me/github-actions-hexo-cicd/
