@@ -1,8 +1,9 @@
 ---
 title: hexo的永久链接插件 abbrlink
-date: 2020-07-23 01:28:40
 tags:
   - hexo
+abbrlink: 2bcce69f
+date: 2020-07-23 01:28:40
 ---
 
 ## 前言

@@ -3,6 +3,7 @@ title: GitHub Actions自动部署Hexo博客
 tags:
   - hexo
   - github
+abbrlink: b272844b
 date: 2020-07-22 22:40:36
 ---
 
