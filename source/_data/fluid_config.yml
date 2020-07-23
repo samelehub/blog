@@ -49,7 +49,7 @@ color: # 主题颜色配置，不一定能每一处都生效，可能会被局�
   post_text_color: '#2c3e50' # 文章正文字体色
   post_heading_color: '#1a202c' # 文章标题标签字体色（h1 h2 h3...）
   link_color: '#3c4858' # 超链接字体色
-  link_hover_color: '#1abc9c' # 超链接悬浮时字体色
+  link_hover_color: '#542866' # 超链接悬浮时字体色
   link_hover_bg_color: '#f8f9fa' # 超链接悬浮背景色
   board_color: '#fff' # 主面板背景色
 
@@ -151,7 +151,7 @@ banner_parallax: true # 头图滚动视差
 footer:
   statistics: # 展示网站的 PV、UV 统计数
     enable: true
-    source: 'busuanzi' # 统计数据来源，可选：busuanzi | leancloud，使用 leancloud 需要在 web_analytics 中设置 api 参数，使用 busuanzi 注意可能间歇抽风
+    source: 'leancloud' # 统计数据来源，可选：busuanzi | leancloud，使用 leancloud 需要在 web_analytics 中设置 api 参数，使用 busuanzi 注意可能间歇抽风
     pv_format: '总访问量 {} 次' # 显示的文本，{}是数字的占位符（必须包含)，下同
     uv_format: '您是第 {} 个光顾的小伙伴'
 
