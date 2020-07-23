@@ -246,7 +246,7 @@ post: # 部分配置同时控制自定义页面，注意备注
     options: { theme: 'default' } # 接口选项，具体可见：http://mermaid-js.github.io/mermaid/#/mermaidAPI
   comments: # 评论
     enable: true # 开启评论
-    type: utterances # 指定使用的评论模块  available: disqus | valine | gitalk | utterances | changyan | livere  推荐 utterances
+    type: valine # 指定使用的评论模块  available: disqus | valine | gitalk | utterances | changyan | livere  推荐 utterances
 
 #---------------------------
 # 评论
@@ -295,9 +295,9 @@ gitalk:
 # 完整文档 https://valine.js.org/configuration.html
 # 注意：下列配置项中的 true/false 不要用引号括起来
 valine:
-  appid: # 从 LeanCloud 的应用中得到的 appId
-  appkey: # 从 LeanCloud 的应用中得到的 APP Key
-  placeholder: 说点什么 # 评论框占位提示符
+  appid: b347mi0uFi7XKa8yR9VziAK5-gzGzoHsz # 从 LeanCloud 的应用中得到的 appId
+  appkey: UxmyD9SqjNjuqMxcl7TGaG3J # 从 LeanCloud 的应用中得到的 APP Key
+  placeholder: 别光看啊，说词啊。。 # 评论框占位提示符
   path: window.location.pathname # 当前文章页路径，用于区分不同的文章页，以保证正确读取该文章页下的评论列表
   avatar: retro # Gravatar 头像展示方式
   meta: ['nick', 'mail', 'link'] # 评论者相关属性
@@ -305,7 +305,7 @@ valine:
   lang: zh-CN # zh-CN | zh-TW | en | ja
   highlight: false # 代码高亮
   recordIP: false # 是否记录评论者IP
-  serverURLs: # REST API 服务器地址，国际版不填
+  serverURLs: https://b347mi0u.lc-cn-n1-shared.com # REST API 服务器地址，国际版不填
 
 # 畅言
 # http://changyan.kuaizhan.com/
