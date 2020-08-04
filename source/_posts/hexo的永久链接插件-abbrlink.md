@@ -2,8 +2,13 @@
 title: hexo的永久链接插件 abbrlink
 tags:
   - hexo
+  - 插件
+categories:
+  - - hexo
+  - - 插件
 abbrlink: 2bcce69f
 date: 2020-07-23 01:28:40
+cover: https://cdn.jsdelivr.net/gh/samelehub/CDN@latest/images/cover/03.jpg
 ---
 
 ## 前言

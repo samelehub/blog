@@ -3,8 +3,12 @@ title: GitHub Actions自动部署Hexo博客
 tags:
   - hexo
   - github
+categories:
+  - - hexo
+  - - github
 abbrlink: b272844b
 date: 2020-07-22 22:40:36
+cover: https://cdn.jsdelivr.net/gh/samelehub/CDN@latest/images/cover/02.jpg
 ---
 
 > GitHub Actions 由 GitHub 官方推出的工作流工具。典型的应用场景应该是 CI/CD，类似 Travis 的用法。

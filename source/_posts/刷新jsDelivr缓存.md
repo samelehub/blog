@@ -1,11 +1,12 @@
 ---
 title: 刷新jsDelivr缓存
-date: 2020-08-03 15:15:36
+date: 2020-08-04 15:15:36
 tags:
   - CDN
 categories:
   - CDN
 abbrlink: 824ac3d0
+cover: https://cdn.jsdelivr.net/gh/samelehub/CDN@latest/images/cover/05.jpg
 ---
 
 # 实现 手动刷新 CDN 缓存
