@@ -7,7 +7,7 @@ categories:
   - - butterfly
   - - hexo
 cover: 'https://cdn.jsdelivr.net/gh/samelehub/CDN@latest/images/cover/29.jpg'
-description: <b>前言：</b> 学习使用hexo标签插件
+description:
 abbrlink: d87f7e0c
 date: 2020-08-04 21:24:39
 ---
