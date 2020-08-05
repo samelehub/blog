@@ -6,7 +6,7 @@ tags:
 categories:
   - - butterfly
   - - hexo
-cover: 'https://cdn.jsdelivr.net/gh/samelehub/CDN@latest/images/cover/29.jpg'
+cover: 'https://cdn.jsdelivr.net/gh/samelehub/CDN@latest/images/cover/06.jpg'
 description:
 abbrlink: d87f7e0c
 date: 2020-08-04 21:24:39
@@ -228,23 +228,23 @@ Unique name : 没有逗号的制表符块标签的唯一名称。将在 #id 的�
 例如：
 
 ```markdown
-{% btn 'http://www.jerryc.me',JerryC,far fa-hand-point-right,outline larger %}
-{% btn 'http://www.jerryc.me',JerryC,far fa-hand-point-right,outline blue larger %}
-{% btn 'http://www.jerryc.me',JerryC,far fa-hand-point-right,outline pink larger %}
-{% btn 'http://www.jerryc.me',JerryC,far fa-hand-point-right,outline red larger %}
-{% btn 'http://www.jerryc.me',JerryC,far fa-hand-point-right,outline purple larger %}
-{% btn 'http://www.jerryc.me',JerryC,far fa-hand-point-right,outline orange larger %}
-{% btn 'http://www.jerryc.me',JerryC,far fa-hand-point-right,outline green larger %}
+{% btn 'https://samele.icu',Samele,far fa-hand-point-right,outline larger %}
+{% btn 'https://samele.icu',Samele,far fa-hand-point-right,outline blue larger %}
+{% btn 'https://samele.icu',Samele,far fa-hand-point-right,outline pink larger %}
+{% btn 'https://samele.icu',Samele,far fa-hand-point-right,outline red larger %}
+{% btn 'https://samele.icu',Samele,far fa-hand-point-right,outline purple larger %}
+{% btn 'https://samele.icu',Samele,far fa-hand-point-right,outline orange larger %}
+{% btn 'https://samele.icu',Samele,far fa-hand-point-right,outline green larger %}
 ```
 
 效果：
-{% btn 'http://www.jerryc.me',JerryC,far fa-hand-point-right,outline larger %}
-{% btn 'http://www.jerryc.me',JerryC,far fa-hand-point-right,outline blue larger %}
-{% btn 'http://www.jerryc.me',JerryC,far fa-hand-point-right,outline pink larger %}
-{% btn 'http://www.jerryc.me',JerryC,far fa-hand-point-right,outline red larger %}
-{% btn 'http://www.jerryc.me',JerryC,far fa-hand-point-right,outline purple larger %}
-{% btn 'http://www.jerryc.me',JerryC,far fa-hand-point-right,outline orange larger %}
-{% btn 'http://www.jerryc.me',JerryC,far fa-hand-point-right,outline green larger %}
+{% btn 'https://samele.icu',Samele,far fa-hand-point-right,outline larger %}
+{% btn 'https://samele.icu',Samele,far fa-hand-point-right,outline blue larger %}
+{% btn 'https://samele.icu',Samele,far fa-hand-point-right,outline pink larger %}
+{% btn 'https://samele.icu',Samele,far fa-hand-point-right,outline red larger %}
+{% btn 'https://samele.icu',Samele,far fa-hand-point-right,outline purple larger %}
+{% btn 'https://samele.icu',Samele,far fa-hand-point-right,outline orange larger %}
+{% btn 'https://samele.icu',Samele,far fa-hand-point-right,outline green larger %}
 
 ## tag-hide
 
