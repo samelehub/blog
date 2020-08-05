@@ -476,7 +476,7 @@ tag_ui: # 留空或 index
 # The formal of color: '#49B202'
 # The formal of image: url(http://xxxxxx.com/xxx.jpg)
 # White color will be shown as default
-background: https://cdn.jsdelivr.net/gh/samelehub/CDN@latest/images/cover/01.jpg
+background: url(https://cdn.jsdelivr.net/gh/samelehub/CDN@latest/images/cover/29.jpg)
 
 # Show the footer background image (same as top_img)
 footer_bg: false
@@ -781,8 +781,8 @@ inject:
   head:
   # - <link rel="stylesheet" href="/xxx.css">
   bottom:
-    - <link rel="stylesheet" href="https://cdn.jsdelivr.net/gh/samelehub/samelehub.github.io/css/samele.css">
-    - <script src="https://cdn.jsdelivr.net/gh/samelehub/samelehub.github.io/js/samele.js"></script>
+    - <link rel="stylesheet" href="https://cdn.jsdelivr.net/gh/samelehub/blog/css/samele.css">
+    - <script src="https://cdn.jsdelivr.net/gh/samelehub/blog/js/samele.js"></script>
     # - <script src="xxxx"></script>
 
 # CDN
