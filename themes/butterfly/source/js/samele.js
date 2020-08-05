@@ -11,6 +11,6 @@ app.removeAttribute('id')
 
 /*添加图片top*/
 var top_up =
-  "<img id='fuhua' class='fuhua' style='max-width: 300%; transform: translate(-86px,-73px);' src='https://cdn.jsdelivr.net/gh/samelehub/CDN@latest/images/user/fuhua.gif' title='回到顶部' >"
+  "<img id='fuhua' class='fuhua' style='max-width: 300%; transform: translate(-86px,-86px);' src='https://cdn.jsdelivr.net/gh/samelehub/CDN@latest/images/user/fuhua.gif' title='回到顶部' >"
 /*添加到返回顶部按钮下*/
 document.getElementById('go-up').innerHTML += top_up

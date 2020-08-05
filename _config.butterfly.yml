@@ -781,8 +781,8 @@ inject:
   head:
   # - <link rel="stylesheet" href="/xxx.css">
   bottom:
-    - <link rel="stylesheet" href="https://cdn.jsdelivr.net/gh/samelehub/blog/css/samele.css">
-    - <script src="https://cdn.jsdelivr.net/gh/samelehub/blog/js/samele.js"></script>
+    - <link rel="stylesheet" href="https://cdn.jsdelivr.net/gh/samelehub/blog@master/css/samele.css">
+    - <script src="https://cdn.jsdelivr.net/gh/samelehub/blog@master/js/samele.js"></script>
     # - <script src="xxxx"></script>
 
 # CDN
