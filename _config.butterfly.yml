@@ -155,7 +155,7 @@ post_meta:
 
 # wordcount (字數統計)
 wordcount:
-  enable: false
+  enable: true
   post_wordcount: true
   min2read: true
   total_wordcount: true
@@ -542,8 +542,8 @@ display_mode: light
 
 # Beautify (美化頁面顯示)
 beautify:
-  enable: false
-  field: post # site/post
+  enable: true
+  field: site # site/post
   title-prefix-icon: '\f0c1'
   title-prefix-icon-color: '#F47466'
 
@@ -773,6 +773,24 @@ Open_Graph_meta: true
 
 # Caches the contents in a fragment, speed up the generation (開啟hexo自帶的緩存,加快生成速度)
 fragment_cache: true
+
+##侧边栏歌单
+aplayer:
+  enable: true
+  js:
+    - https://cdn.jsdelivr.net/gh/samelehub/CDN@latest/APlayer/APlayer.min.js
+    - https://cdn.jsdelivr.net/npm/meting@1.2.0/dist/Meting.min.js
+  css:
+    - https://cdn.jsdelivr.net/gh/samelehub/CDN@latest/APlayer/APlayer.min.css
+  id: 5164883875 #歌单id
+  server: netease #服务商
+  type: playlist # 播放菜单
+  fixed: 'true' #是否开启吸底模式，详细：https://aplayer.js.org/#/home?id=fixed-mode
+  order: list # 音频循环顺序, 可选值: 'list', 'random'
+  preload: auto #预加载，可选值: 'none', 'metadata', 'auto'
+  listFolded: false #列表默认折叠
+  autoplay: 'true' # 自动播放
+  volume: '0.2' # 默认音量，请注意播放器会记忆用户设置，用户手动设置音量后默认音量即失效
 
 # Inject
 # Insert the code to head (before '</head>' tag) and the bottom (before '</body>' tag)

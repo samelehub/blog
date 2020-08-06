@@ -2,26 +2,26 @@ class:
   class_name: 友情链接
   link_list:
     1:
-      name: Lete乐特
-      link: https://www.lete114.top/
-      avatar: https://www.lete114.top/img/favicon.ico
-      descr: 每天进步一点点
+      name: Samele
+      link: https://samele.icu/
+      avatar: https://samele.icu/favicon.ico
+      descr: 一个死肥宅程序猿
     2:
-      name: Test
-      link: https://www.xxxxxx.com/
-      avatar: https://xxxxx/favicon.ico
-      descr: Test
+      name: Samele
+      link: https://github.com/samlehub/
+      avatar: https://cdn.jsdelivr.net/gh/samelehub/CDN@latest/images/user/favicon.png
+      descr: 一个死肥宅程序猿
 
 class2:
   class_name: 链接无效
   link_list:
     1:
       name: Test
-      link: https://yilia.lete114.top/
-      avatar: https://www.lete114.top/img/favicon.ico
+      link: https://samele.icu/
+      avatar: https://samele.icu/favicon.ico
       descr: Test
     2:
       name: Test
-      link: https://yilia.lete114.top/
-      avatar: https://www.lete114.top/img/favicon.ico
+      link: https://samele.icu/
+      avatar: https://samele.icu/favicon.ico
       descr: Test
