@@ -716,7 +716,7 @@ note:
 # Pjax [Beta]
 # It may contain bugs and unstable, give feedback when you find the bugs.
 # https://github.com/MoOx/pjax
-pjax: false
+pjax: true
 
 # Inject the css and script (aplayer/meting)
 aplayerInject:
@@ -800,9 +800,9 @@ inject:
   # - <link rel="stylesheet" href="/xxx.css">
   bottom:
     - <link rel="stylesheet" href="https://cdn.jsdelivr.net/gh/samelehub/blog@latest/css/samele.css">
-    - <script src="https://cdn.jsdelivr.net/gh/samelehub/blog@latest/js/samele.js"></script>
-    - <script src="https://cdn.jsdelivr.net/gh/lete114/CDN/Sum/sakura.js"></script> #樱花
+    - <script data-pjax src="https://cdn.jsdelivr.net/gh/samelehub/blog@latest/js/samele.js"></script>
     - <script src="https://cdn.jsdelivr.net/gh/lete114/CDN/Sum/title.js"></script> #卖萌标题
+    # - <script src="https://cdn.jsdelivr.net/gh/lete114/CDN/Sum/sakura.js"></script> #樱花
     # - <script src="xxxx"></script>
 
 # CDN

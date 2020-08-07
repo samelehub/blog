@@ -45,7 +45,7 @@ aplayer:
     - https://cdn.jsdelivr.net/npm/meting@1.2.0/dist/Meting.min.js
   css:
     - https://cdn.jsdelivr.net/gh/samelehub/CDN@latest/APlayer/APlayer.min.css
-  id: 4968103795 #歌单id
+  id: 5164883875 #歌单id
   server: netease #服务商
   type: playlist # 播放菜单
   fixed: 'true' #是否开启吸底模式，详细：https://aplayer.js.org/#/home?id=fixed-mode
