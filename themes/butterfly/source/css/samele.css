@@ -134,7 +134,7 @@
 
 #fuhua {
   max-width: 300% !important;
-  transform: translate(-86px, -96px) !important;
+  transform: translate(-86px, -86px) !important;
 }
 
 /*修复添加up酱后图标上移的bug*/
