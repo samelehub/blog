@@ -3,15 +3,36 @@
   src: url('https://cdn.jsdelivr.net/gh/samelehub/CDN@latest/fonts/sleek.woff2');
 }
 
-/* 修复pjax造成的bug */
-
-.vempty,
-.vempty * {
-  line-height: 0;
-  padding: 0;
-  margin: 0;
+/* 上移aplayer避免遮挡目录按钮 */
+.aplayer.aplayer-fixed .aplayer-body {
+  bottom: 70px;
 }
 
+.aplayer.aplayer-fixed {
+  bottom: 70px;
+}
+
+/* 设置aplayer歌词样式 */
+
+.aplayer-lrc .aplayer-lrc-contents p {
+  font-size: 16px;
+  font-weight: bold;
+  background: linear-gradient(-45deg, #ee7752, #ce3e75, #23a6d5, #23d5ab);
+  background-size: 400% 400%;
+  -webkit-animation: Gradient 10s ease infinite;
+  -moz-animation: Gradient 10s ease infinite;
+  animation: Gradient 10s ease infinite;
+  -o-user-select: none;
+  -ms-user-select: none;
+  -webkit-user-select: none;
+  -moz-user-select: none;
+  user-select: none;
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+  border-top-left-radius: 10px;
+  border-top-right-radius: 10px;
+
+}
 
 /* 打字效果渐变 */
 
@@ -118,9 +139,9 @@
 
 /*修复添加up酱后图标上移的bug*/
 
-.fas {
+/* .fas {
   line-height: 2;
-}
+} */
 
 /* 版权链接去掉下划线 */
 
@@ -241,4 +262,18 @@ a {
 ::-moz-selection {
   color: #fff;
   background-color: rgb(41, 50, 122);
+}
+
+/* 修复pjax造成的bug */
+
+.vempty {
+  line-height: 0 !important;
+  padding: 0 !important;
+  margin: 0 !important;
+}
+
+.vempty * {
+  line-height: 0 !important;
+  padding: 0 !important;
+  margin: 0 !important;
 }
