@@ -31,7 +31,6 @@
   -webkit-text-fill-color: transparent;
   border-top-left-radius: 10px;
   border-top-right-radius: 10px;
-
 }
 
 /* 打字效果渐变 */
@@ -159,7 +158,6 @@
   margin: 30px 0px 30px 0px;
 }
 
-
 /* 提交按钮 */
 
 #vcomment button {
@@ -175,12 +173,11 @@
   transition: all 0.3s;
 }
 
-
 /* 评论区代码块 */
 
-.v[data-class=v] code {
+.v[data-class='v'] code {
   color: #c7254e;
-  background-color: #F9F2F4;
+  background-color: #f9f2f4;
 }
 
 /* 设置评论框 */
@@ -193,12 +190,11 @@
   margin: 30px 0px 0px 0px;
 }
 
-
 /* 取消回复聊天框 */
 
 .vquote .vcard {
   box-shadow: 2px 2px 5px transparent;
-  background: rgba(255, 255, 255, 0.0);
+  background: rgba(255, 255, 255, 0);
   padding: 0px;
 }
 
@@ -220,11 +216,10 @@ a {
   color: #f9f2f4;
 }
 
-
 /*文章透明*/
 
-.layout_post>#post {
-  background: rgba(255, 255, 255, .9);
+.layout_post > #post {
+  background: rgba(255, 255, 255, 0.9);
 }
 
 /* 页脚透明 */
@@ -240,6 +235,14 @@ a {
     display: none;
     font-size: 13px;
   }
+  /* aplayer移动端样式调整 */
+  .aplayer.aplayer-fixed .aplayer-body {
+    max-width: 303px;
+  }
+
+  .aplayer.aplayer-fixed {
+    max-width: 285px;
+  }
 }
 
 /* 滚动条 */
@@ -251,7 +254,16 @@ a {
 
 ::-webkit-scrollbar-thumb {
   background-color: rgb(41, 50, 122);
-  background-image: -webkit-linear-gradient(45deg, rgba(255, 255, 255, 0.4) 25%, transparent 25%, transparent 50%, rgba(255, 255, 255, 0.4) 50%, rgba(255, 255, 255, 0.4) 75%, transparent 75%, transparent);
+  background-image: -webkit-linear-gradient(
+    45deg,
+    rgba(255, 255, 255, 0.4) 25%,
+    transparent 25%,
+    transparent 50%,
+    rgba(255, 255, 255, 0.4) 50%,
+    rgba(255, 255, 255, 0.4) 75%,
+    transparent 75%,
+    transparent
+  );
   border-radius: 2em;
 }
 

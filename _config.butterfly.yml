@@ -799,8 +799,8 @@ inject:
   head:
   # - <link rel="stylesheet" href="/xxx.css">
   bottom:
-    - <link rel="stylesheet" href="https://cdn.jsdelivr.net/gh/samelehub/blog@latest/css/samele.css">
-    - <script data-pjax src="https://cdn.jsdelivr.net/gh/samelehub/blog@latest/js/samele.js"></script>
+    - <link rel="stylesheet" href="https://samele.icu/blog/css/samele.css">
+    - <script data-pjax src="https://samele.icu/blog/js/samele.js"></script>
     - <script src="https://cdn.jsdelivr.net/gh/lete114/CDN/Sum/title.js"></script> #卖萌标题
     # - <script src="https://cdn.jsdelivr.net/gh/lete114/CDN/Sum/sakura.js"></script> #樱花
     # - <script src="xxxx"></script>
