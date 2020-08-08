@@ -298,18 +298,20 @@ gitalk:
 # valine
 # https://valine.js.org
 valine:
-  appId: # leancloud application app id
-  appKey: # leancloud application app key
+  master: e1fdf2f8d39c2d4113e7205bc9321feb # 你邮箱的md5加密(百度md5在线加密)
+  friends: # 你朋友的邮箱md5加密
+  appId: iDkhcWtBsabSH8Xw7tLIKF0L-MdYXbMMI # leancloud application app id
+  appKey: fqBMGRhps0VUetEkF8OYSHtk # leancloud application app key
   pageSize: 10 # comment list page size
   avatar: monsterid # gravatar style https://valine.js.org/#/avatar
   lang: zh-CN # i18n: zh-CN/zh-TW/en/ja
-  placeholder: 留下你的昵称和邮箱可以快速收到和回复 # valine comment input placeholder(like: Please leave your footprints )
+  placeholder: 昵称处填写qq号后点击其它位置即可自动关联qq邮箱和qq头像 # valine comment input placeholder(like: Please leave your footprints )
   guest_info: nick,mail,link #valine comment header info (nick/mail/link)
   recordIP: false # Record reviewer IP
   serverURLs: # This configuration is suitable for domestic custom domain name users, overseas version will be automatically detected (no need to manually fill in)
   bg: /blog/img/bg-min.png # valine background
-  emojiCDN: https://cdn.jsdelivr.net/gh/samelehub/CDN@latest/js/emojiCDN/emojione.min.js # emoji CDN
-  enableQQ: false # enable the Nickname box to automatically get QQ Nickname and QQ Avatar
+  emojiCDN: https://cdn.jsdelivr.net/gh/samelehub/CDN@latest/valine/emoji/ # emoji CDN
+  enableQQ: true # enable the Nickname box to automatically get QQ Nickname and QQ Avatar
   requiredFields: nick,mail # required fields (nick/mail)
 
 # utterances
@@ -822,7 +824,7 @@ CDN:
   blueimp_md5: https://cdn.jsdelivr.net/npm/blueimp-md5/js/md5.min.js
   gitalk: https://cdn.jsdelivr.net/npm/gitalk@latest/dist/gitalk.min.js
   gitalk_css: https://cdn.jsdelivr.net/npm/gitalk/dist/gitalk.min.css
-  valine: https://cdn.jsdelivr.net/npm/valine/dist/Valine.min.js
+  valine: https://cdn.jsdelivr.net/gh/samelehub/CDN@latest/valine/js/Valine-Samele.min.js
   disqusjs: https://cdn.jsdelivr.net/npm/disqusjs@1/dist/disqus.js
   disqusjs_css: https://cdn.jsdelivr.net/npm/disqusjs@1/dist/disqusjs.css
   utterances: https://utteranc.es/client.js

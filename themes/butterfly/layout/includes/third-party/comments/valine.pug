@@ -5,8 +5,26 @@ if site.data.valine
 script.
   function loadValine () {
     function initValine () {
+      function emoji(path, index, ext) {
+            return path + "/" + path + "-" + index + "." + ext;
+        }
+        var emojiMaps = {};
+        for (var i = 1; i <= 20; i++) {
+            emojiMaps['samele-' + i] = emoji('samele', i, 'png');
+        }
+        for (var i = 1; i <= 54; i++) {
+            emojiMaps['tieba-' + i] = emoji('tieba', i, 'png');
+        }
+        for (var i = 1; i <= 101; i++) {
+            emojiMaps['qq-' + i] = emoji('qq', i, 'gif');
+        }
+        for (var i = 1; i <= 116; i++) {
+            emojiMaps['aru-' + i] = emoji('aru', i, 'gif');
+        }
       window.valine = new Valine({
         el: '#vcomment',
+        master:'#{theme.valine.master}',
+        friends:'#{theme.valine.friends}',
         appId: '#{theme.valine.appId}',
         appKey: '#{theme.valine.appKey}',
         placeholder: '#{theme.valine.placeholder}',
@@ -17,7 +35,7 @@ script.
         recordIP: #{theme.valine.recordIP},
         serverURLs: '#{theme.valine.serverURLs}',
         emojiCDN: '#{theme.valine.emojiCDN}',
-        emojiMaps: !{emojiMaps},
+        emojiMaps: emojiMaps,
         enableQQ: #{theme.valine.enableQQ},
         path: window.location.pathname,
       });
