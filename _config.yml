@@ -4,12 +4,12 @@
 
 # Site
 title: Samele Blog
-subtitle: ''
-description: ''
-keywords:
+subtitle: 'Samele的个人博客'
+description: '生命像一场漫长的修行，与我遗憾亦赠我惊喜'
+keywords: 'Samele,个人网站,博客,开发者,程序猿,编程,代码,开源,IT网站,数据库,MySQL,开发工具,Git,GitHub,Gitee,IDEA, Hexo,Linux,前端基础知识,HTML,CSS,JavaScript,jQuery,Ajax,Bootstrap,vue,工具&#x2F;资源,教程,分享,推荐,娱乐,CMD,Developer,Programmer,Coder'
 author: Samele
 language: zh-CN
-timezone: ''
+timezone: 'Asia/Shanghai'
 
 # URL
 ## If your site is put in a subdirectory, set url as 'http://yoursite.com/child' and root as '/child/'

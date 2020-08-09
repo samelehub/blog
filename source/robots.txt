@@ -1,0 +1,25 @@
+# 允许所有用户代理的浏览器爬虫进行访问（爬取数据）
+User-agent: *
+
+# 不允许访问的内容
+Disallow: /fonts/
+Disallow: /img/
+Disallow: /js/
+Disallow: /css/
+Disallow: /*.js
+Disallow: /*.css
+
+Sitemap: http://samelehub.github.io/sitemap.xml
+Sitemap: http://samelehub.github.io/baidusitemap.xml
+Sitemap: http://samelehub.gitee.io/sitemap.xml
+Sitemap: http://samelehub.gitee.io/baidusitemap.xml
+Sitemap: http://samele.icu/sitemap.xml
+Sitemap: http://samele.icu/baidusitemap.xml
+
+
+Sitemap: https://samelehub.github.io/sitemap.xml
+Sitemap: https://samelehub.github.io/baidusitemap.xml
+Sitemap: https://samelehub.gitee.io/sitemap.xml
+Sitemap: https://samelehub.gitee.io/baidusitemap.xml
+Sitemap: https://samele.icu/sitemap.xml
+Sitemap: https://samele.icu/baidusitemap.xml
