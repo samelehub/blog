@@ -222,6 +222,11 @@ a {
   background: rgba(255, 255, 255, 0.9);
 }
 
+/* header背景透明 */
+#page-header {
+  background-color: transparent;
+}
+
 /* 页脚透明 */
 
 #footer {
