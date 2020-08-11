@@ -257,6 +257,110 @@ a {
   }
 }
 
+/* 鼠标图标 */
+
+body {
+  cursor: url(https://cdn.jsdelivr.net/gh/samelehub/CDN@latest/images/cursor/default.cur), auto !important;
+}
+
+
+
+/*a标签*/
+
+a:hover {
+  cursor: url(https://cdn.jsdelivr.net/gh/samelehub/CDN@latest/images/cursor/pointer.cur), auto !important;
+}
+
+
+/*按钮*/
+
+button:hover {
+  cursor: url(https://cdn.jsdelivr.net/gh/samelehub/CDN@latest/images/cursor/pointer.cur), auto !important;
+}
+
+#rightside>div>button,
+#rightside>div>a {
+  display: block;
+  margin-bottom: 2px;
+  width: 30px;
+  height: 30px;
+  color: var(--btn-color);
+  text-align: center;
+  font-size: 16px;
+  cursor: url(https://cdn.jsdelivr.net/gh/samelehub/CDN@latest/images/cursor/pointer.cur), auto !important;
+}
+
+
+/* 打赏 */
+
+.post-reward .reward-button {
+  cursor: url(https://cdn.jsdelivr.net/gh/samelehub/CDN@latest/images/cursor/pointer.cur), auto !important;
+}
+
+
+/* 文章标签 */
+
+.layout_post .tag_share .post-meta__tags {
+  cursor: url(https://cdn.jsdelivr.net/gh/samelehub/CDN@latest/images/cursor/pointer.cur), auto !important;
+}
+
+
+/* 评论区 */
+
+.vcol * {
+  cursor: url(https://cdn.jsdelivr.net/gh/samelehub/CDN@latest/images/cursor/pointer.cur), auto !important;
+}
+
+.v[data-class=v] .vicon {
+  cursor: url(https://cdn.jsdelivr.net/gh/samelehub/CDN@latest/images/cursor/pointer.cur), auto !important;
+}
+
+.v[data-class=v] .vbtn {
+  cursor: url(https://cdn.jsdelivr.net/gh/samelehub/CDN@latest/images/cursor/pointer.cur), auto !important;
+}
+
+
+/* 回复 */
+
+.vat {
+  cursor: url(https://cdn.jsdelivr.net/gh/samelehub/CDN@latest/images/cursor/pointer.cur), auto !important;
+}
+
+
+/*i标签*/
+
+i:hover {
+  cursor: url(https://cdn.jsdelivr.net/gh/samelehub/CDN@latest/images/cursor/pointer.cur), auto !important;
+}
+
+
+/*up酱*/
+
+#fuhua:hover {
+  cursor: url(https://cdn.jsdelivr.net/gh/samelehub/CDN@latest/images/cursor/pointer.cur), auto !important;
+}
+
+
+/*页脚a标签*/
+
+#footer-wrap a:hover {
+  text-decoration: none;
+  cursor: url(https://cdn.jsdelivr.net/gh/samelehub/CDN@latest/images/cursor/pointer.cur), auto !important;
+}
+
+
+/*分页器*/
+
+#pagination .page-number:hover {
+  cursor: url(https://cdn.jsdelivr.net/gh/samelehub/CDN@latest/images/cursor/pointer.cur), auto !important;
+}
+
+/* 分页器的三个点(...) */
+.space {
+  color: #00c4b6;
+}
+
+
 /* 滚动条 */
 
 ::-webkit-scrollbar {
@@ -266,15 +370,12 @@ a {
 
 ::-webkit-scrollbar-thumb {
   background-color: rgb(41, 50, 122);
-  background-image: -webkit-linear-gradient(45deg,
-      rgba(255, 255, 255, 0.4) 25%,
-      transparent 25%,
-      transparent 50%,
-      rgba(255, 255, 255, 0.4) 50%,
-      rgba(255, 255, 255, 0.4) 75%,
-      transparent 75%,
-      transparent);
+  background: linear-gradient(45deg, #ee7752, #ce3e75, #23a6d5, #23d5ab);
   border-radius: 2em;
+}
+
+::-webkit-scrollbar-thumb:hover {
+  background: linear-gradient(45deg, #23d5ab, #ce3e75, #23a6d5, #ee7752);
 }
 
 ::-webkit-scrollbar-corner {
