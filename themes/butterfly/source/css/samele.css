@@ -15,8 +15,11 @@
 /* 设置aplayer歌词样式 */
 
 .aplayer-lrc .aplayer-lrc-contents p {
-  font-size: 16px;
+  font-size: 18px;
+  font-family: 'sleek';
   font-weight: bold;
+  text-shadow: 1px 0 #ffffff50;
+  letter-spacing: 1px;
   background: linear-gradient(-45deg, #ee7752, #ce3e75, #23a6d5, #23d5ab);
   background-size: 400% 400%;
   -webkit-animation: Gradient 10s ease infinite;
