@@ -306,7 +306,7 @@ valine:
   placeholder: 昵称处填写qq号后点击其它位置即可自动关联qq邮箱和qq头像 # valine comment input placeholder(like: Please leave your footprints )
   guest_info: nick,mail,link #valine comment header info (nick/mail/link)
   recordIP: false # Record reviewer IP
-  serverURLs: # This configuration is suitable for domestic custom domain name users, overseas version will be automatically detected (no need to manually fill in)
+  serverURLs: https://idkhcwtb.api.lncldglobal.com # This configuration is suitable for domestic custom domain name users, overseas version will be automatically detected (no need to manually fill in)
   bg: /blog/img/bg-min.png # valine background
   emojiCDN: https://cdn.jsdelivr.net/gh/samelehub/CDN@latest/valine/emoji/ # emoji CDN
   enableQQ: true # enable the Nickname box to automatically get QQ Nickname and QQ Avatar
