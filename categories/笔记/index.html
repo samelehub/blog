@@ -1,0 +1,167 @@
+<!DOCTYPE html><html lang="zh-CN" data-theme="light"><head><meta charset="UTF-8"><meta http-equiv="X-UA-Compatible" content="IE=edge"><meta name="viewport" content="width=device-width,initial-scale=1"><title>分类: 笔记 | Samele Blog</title><meta name="description" content="生命像一场漫长的修行，与我遗憾亦赠我惊喜"><meta name="keywords" content="Samele,个人网站,博客,开发者,程序猿,编程,代码,开源,IT网站,数据库,MySQL,开发工具,Git,GitHub,Gitee,IDEA, Hexo,Linux,前端基础知识,HTML,CSS,JavaScript,jQuery,Ajax,Bootstrap,vue,工具&amp;#x2F;资源,教程,分享,推荐,娱乐,CMD,Developer,Programmer,Coder"><meta name="author" content="Samele"><meta name="copyright" content="Samele"><meta name="format-detection" content="telephone=no"><link rel="shortcut icon" href="https://cdn.jsdelivr.net/gh/samelehub/CDN@latest/images/user/favicon.png"><link rel="canonical" href="http://samelehub.github.io/blog/categories/%E7%AC%94%E8%AE%B0/"><meta http-equiv="Cache-Control" content="no-transform"><meta http-equiv="Cache-Control" content="no-siteapp"><link rel="preconnect" href="//cdn.jsdelivr.net"/><link rel="preconnect" href="//fonts.googleapis.com" crossorigin="crossorigin"/><link rel="preconnect" href="//busuanzi.ibruce.info"/><meta property="og:type" content="website"><meta property="og:title" content="分类: 笔记"><meta property="og:url" content="http://samelehub.github.io/blog/categories/%E7%AC%94%E8%AE%B0/"><meta property="og:site_name" content="Samele Blog"><meta property="og:description" content="生命像一场漫长的修行，与我遗憾亦赠我惊喜"><meta property="og:image" content="https://cdn.jsdelivr.net/gh/samelehub/CDN@latest/images/user/avatar.jpg"><meta property="article:published_time" content="2021-01-02T13:02:04.815Z"><meta property="article:modified_time" content="2021-01-02T13:02:04.815Z"><meta name="twitter:card" content="summary"><script>var activateDarkMode = function () {
+  document.documentElement.setAttribute('data-theme', 'dark')
+  if (document.querySelector('meta[name="theme-color"]') !== null) {
+    document.querySelector('meta[name="theme-color"]').setAttribute('content', '#000')
+  }
+}
+var activateLightMode = function () {
+  document.documentElement.setAttribute('data-theme', 'light')
+  if (document.querySelector('meta[name="theme-color"]') !== null) {
+    document.querySelector('meta[name="theme-color"]').setAttribute('content', '#fff')
+  }
+}
+
+var getCookies = function (name) {
+  const value = `; ${document.cookie}`
+  const parts = value.split(`; ${name}=`)
+  if (parts.length === 2) return parts.pop().split(';').shift()
+}
+
+var autoChangeMode = 'false'
+var t = getCookies('theme')
+if (autoChangeMode === '1') {
+  var isDarkMode = window.matchMedia('(prefers-color-scheme: dark)').matches
+  var isLightMode = window.matchMedia('(prefers-color-scheme: light)').matches
+  var isNotSpecified = window.matchMedia('(prefers-color-scheme: no-preference)').matches
+  var hasNoSupport = !isDarkMode && !isLightMode && !isNotSpecified
+
+  if (t === undefined) {
+    if (isLightMode) activateLightMode()
+    else if (isDarkMode) activateDarkMode()
+    else if (isNotSpecified || hasNoSupport) {
+      console.log('You specified no preference for a color scheme or your browser does not support it. I Schedule dark mode during night time.')
+      var now = new Date()
+      var hour = now.getHours()
+      var isNight = hour <= 6 || hour >= 18
+      isNight ? activateDarkMode() : activateLightMode()
+    }
+    window.matchMedia('(prefers-color-scheme: dark)').addListener(function (e) {
+      if (Cookies.get('theme') === undefined) {
+        e.matches ? activateDarkMode() : activateLightMode()
+      }
+    })
+  } else if (t === 'light') activateLightMode()
+  else activateDarkMode()
+} else if (autoChangeMode === '2') {
+  now = new Date()
+  hour = now.getHours()
+  isNight = hour <= 6 || hour >= 18
+  if (t === undefined) isNight ? activateDarkMode() : activateLightMode()
+  else if (t === 'light') activateLightMode()
+  else activateDarkMode()
+} else {
+  if (t === 'dark') activateDarkMode()
+  else if (t === 'light') activateLightMode()
+}</script><link rel="stylesheet" href="/blog/css/index.css"><link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/@fortawesome/fontawesome-free/css/all.min.css"><link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/@fancyapps/fancybox@latest/dist/jquery.fancybox.min.css"><link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Titillium+Web&amp;display=swap"><script>var GLOBAL_CONFIG = { 
+  root: '/blog/',
+  algolia: undefined,
+  localSearch: {"path":"search.xml","languages":{"hits_empty":"找不到您查询的内容：${query}"}},
+  translate: undefined,
+  noticeOutdate: undefined,
+  copy: {
+    success: '复制成功',
+    error: '复制错误',
+    noSupport: '浏览器不支持'
+  },
+  bookmark: {
+    message_prev: '按',
+    message_next: '键将本页加入书签'
+  },
+  runtime_unit: '天',
+  runtime: false,
+  copyright: undefined,
+  ClickShowText: undefined,
+  medium_zoom: false,
+  fancybox: true,
+  Snackbar: undefined,
+  justifiedGallery: {
+    js: 'https://cdn.jsdelivr.net/npm/justifiedGallery/dist/js/jquery.justifiedGallery.min.js',
+    css: 'https://cdn.jsdelivr.net/npm/justifiedGallery/dist/css/justifiedGallery.min.css'
+  },
+  baiduPush: false,
+  highlightCopy: true,
+  highlightLang: true,
+  isPhotoFigcaption: false,
+  islazyload: true,
+  isanchor: false    
+}</script><script id="config_change">var GLOBAL_CONFIG_SITE = { 
+  isPost: false,
+  isHome: false,
+  isHighlightShrink: false,
+  isSidebar: false,
+  postUpdate: '2021-01-02 21:02:04'
+}</script><noscript><style>
+#nav {
+  opacity: 1
+}
+.justified-gallery img {
+  opacity: 1
+}
+</style></noscript><Code></Code><div class="aplayer" data-id="5164883875" data-server="netease" data-type="playlist" data-fixed="true" data-order="list" data-preload="auto" data-volume="0.2" data-autoplay="true"></div><link rel="stylesheet" href="https://cdn.jsdelivr.net/gh/samelehub/CDN@latest/APlayer/APlayer.min.css"><script src="https://cdn.jsdelivr.net/gh/samelehub/CDN@latest/APlayer/APlayer.min.js"></script><script src="https://cdn.jsdelivr.net/npm/meting@1.2.0/dist/Meting.min.js"></script><meta name="generator" content="Hexo 5.0.0"></head><body><div id="mobile-sidebar"><div id="menu_mask"></div><div id="mobile-sidebar-menus"><div class="mobile_author_icon"><img class="avatar-img" data-lazy-src="https://cdn.jsdelivr.net/gh/samelehub/CDN@latest/images/user/avatar.jpg" onerror="onerror=null;src='/img/friend_404.gif'" alt="avatar"/></div><div class="mobile_post_data"><div class="mobile_data_item is-center"><div class="mobile_data_link"><a href="/blog/archives/"><div class="headline">文章</div><div class="length_num">8</div></a></div></div><div class="mobile_data_item is-center">      <div class="mobile_data_link"><a href="/blog/tags/"><div class="headline">标签</div><div class="length_num">8</div></a></div></div><div class="mobile_data_item is-center">     <div class="mobile_data_link"><a href="/blog/categories/"><div class="headline">分类</div><div class="length_num">8</div></a></div></div></div><hr/><div class="menus_items"><div class="menus_item"><a class="site-page" href="/blog/"><i class="fa-fw fa fa-home"></i><span> 首页</span></a></div><div class="menus_item"><a class="site-page" href="/blog/messageboard/"><i class="fa-fw fa fa-paper-plane"></i><span> 留言板</span></a></div><div class="menus_item"><a class="site-page" href="javascript:void(0);"><i class="fa-fw fa-fw fa fa-book"></i><span> 找文章</span><i class="fas fa-chevron-down expand"></i></a><ul class="menus_item_child"><li><a class="site-page" href="/blog/tags/"><i class="fa-fw fa fa-tags"></i><span> 标签</span></a></li><li><a class="site-page" href="/blog/categories/"><i class="fa-fw fa fa-folder-open"></i><span> 分类</span></a></li><li><a class="site-page" href="/blog/archives/"><i class="fa-fw fa fa-archive"></i><span> 时间轴</span></a></li></ul></div><div class="menus_item"><a class="site-page" href="/blog/link/"><i class="fa-fw fa fa-users"></i><span> 友链</span></a></div><div class="menus_item"><a class="site-page" href="javascript:void(0);"><i class="fa-fw fa fa-list"></i><span> 菜单</span><i class="fas fa-chevron-down expand"></i></a><ul class="menus_item_child"><li><a class="site-page" href="/blog/about/"><i class="fa-fw fa fa-heart"></i><span> 关于</span></a></li><li><a class="site-page" target="_blank" rel="noopener" href="https://samele.icu/"><i class="fa-fw fa fa-user"></i><span> Samele个人主页</span></a></li></ul></div></div></div></div><div id="body-wrap"><div id="web_bg" data-type="photo"></div><header class="not-index-bg" id="page-header"><nav id="nav"><span class="pull-left" id="blog_name"><a class="blog_title" id="site-name" href="/blog/">Samele Blog</a></span><span class="pull-right menus"><div id="search_button"><a class="site-page social-icon search"><i class="fas fa-search fa-fw"></i><span> 搜索</span></a></div><div class="menus_items"><div class="menus_item"><a class="site-page" href="/blog/"><i class="fa-fw fa fa-home"></i><span> 首页</span></a></div><div class="menus_item"><a class="site-page" href="/blog/messageboard/"><i class="fa-fw fa fa-paper-plane"></i><span> 留言板</span></a></div><div class="menus_item"><a class="site-page" href="javascript:void(0);"><i class="fa-fw fa-fw fa fa-book"></i><span> 找文章</span><i class="fas fa-chevron-down expand"></i></a><ul class="menus_item_child"><li><a class="site-page" href="/blog/tags/"><i class="fa-fw fa fa-tags"></i><span> 标签</span></a></li><li><a class="site-page" href="/blog/categories/"><i class="fa-fw fa fa-folder-open"></i><span> 分类</span></a></li><li><a class="site-page" href="/blog/archives/"><i class="fa-fw fa fa-archive"></i><span> 时间轴</span></a></li></ul></div><div class="menus_item"><a class="site-page" href="/blog/link/"><i class="fa-fw fa fa-users"></i><span> 友链</span></a></div><div class="menus_item"><a class="site-page" href="javascript:void(0);"><i class="fa-fw fa fa-list"></i><span> 菜单</span><i class="fas fa-chevron-down expand"></i></a><ul class="menus_item_child"><li><a class="site-page" href="/blog/about/"><i class="fa-fw fa fa-heart"></i><span> 关于</span></a></li><li><a class="site-page" target="_blank" rel="noopener" href="https://samele.icu/"><i class="fa-fw fa fa-user"></i><span> Samele个人主页</span></a></li></ul></div></div><span class="toggle-menu close"><a class="site-page"><i class="fas fa-bars fa-fw"></i></a></span></span></nav><div id="page_site-info"><h1 id="site_title">笔记</h1></div></header><main class="layout_page" id="content-inner"><div id="category"><div class="article-sort-title">分类 - 笔记</div><div class="article-sort"><div class="article-sort-item year">2020</div><div class="article-sort-item"><a class="article-sort-item-img" href="/blog/article/afb0fd43.html" title="Vue学习笔记"><img data-lazy-src="https://cdn.jsdelivr.net/gh/samelehub/CDN@latest/images/cover/29.jpg" alt="Vue学习笔记" onerror="this.onerror=null;this.src='/blog/img/404.jpg'"></a><div class="article-sort-item-info"><div class="article-sort-item-time"><i class="far fa-calendar-alt"></i><time class="post-meta-date-created" datetime="2020-12-15T12:48:40.000Z" title="发表于 2020-12-15 20:48:40">2020-12-15</time></div><a class="article-sort-item-title" href="/blog/article/afb0fd43.html" title="Vue学习笔记">Vue学习笔记</a></div></div></div><nav id="pagination"><div class="pagination"><span class="page-number current">1</span></div></nav></div><div class="aside_content" id="aside_content"><div class="card-widget card-info"><div class="card-content"><div class="card-info-avatar is-center"><img class="avatar-img" data-lazy-src="https://cdn.jsdelivr.net/gh/samelehub/CDN@latest/images/user/avatar.jpg" onerror="this.onerror=null;this.src='/blog/img/friend_404.gif'" alt="avatar"/><div class="author-info__name">Samele</div><div class="author-info__description">生命像一场漫长的修行</div></div><div class="card-info-data"><div class="card-info-data-item is-center"><a href="/blog/archives"><div class="headline">文章</div><div class="length_num">8</div></a></div><div class="card-info-data-item is-center">      <a href="/blog/tags"><div class="headline">标签</div><div class="length_num">8</div></a></div><div class="card-info-data-item is-center"><a href="/blog/categories"><div class="headline">分类</div><div class="length_num">8</div></a></div></div><a class="button--animated" id="card-info-btn" target="_blank" rel="noopener" href="https://github.com/samelehub"><i class="fab fa-github"></i><span>Follow Me</span></a><div class="card-info-social-icons is-center"><a class="social-icon" href="https://github.com/samelehub" target="_blank" title="Github"><i class="fab fa-github"></i></a><a class="social-icon" href="mailto:samele_lu@163.com" target="_blank" title="Email"><i class="fas fa-envelope"></i></a></div></div></div><div class="card-widget card-announcement"><div class="card-content"><div class="item-headline"><i class="fas fa-bullhorn card-announcement-animation"></i><span>公告</span></div><div class="announcement_content">This is my Blog <img src = 'https://cdn.jsdelivr.net/gh/samelehub/CDN@latest/images/user/card_bg.gif'></div></div></div><div class="card-widget card-recent-post"><div class="card-content"><div class="item-headline"><i class="fas fa-history"></i><span>最新文章</span></div><div class="aside-recent-item"><div class="aside-recent-post"><a class="aside-post-cover" href="/blog/article/afb0fd43.html" title="Vue学习笔记"><img class="aside-post-bg" data-lazy-src="https://cdn.jsdelivr.net/gh/samelehub/CDN@latest/images/cover/29.jpg" onerror="this.onerror=null;this.src='/blog/img/404.jpg'" alt="Vue学习笔记"/></a><div class="aside-post-info"><a class="aside-post-title" href="/blog/article/afb0fd43.html" title="Vue学习笔记">Vue学习笔记</a><time class="aside-post_meta post-meta-date" datetime="2020-12-15T12:48:40.000Z" title="发表于 2020-12-15 20:48:40">2020-12-15</time></div></div><div class="aside-recent-post"><a class="aside-post-cover" href="/blog/article/76c6d058.html" title="hexo-butterfly主题安装音乐播放器插件"><img class="aside-post-bg" data-lazy-src="https://cdn.jsdelivr.net/gh/samelehub/CDN@latest/images/cover/08.jpg" onerror="this.onerror=null;this.src='/blog/img/404.jpg'" alt="hexo-butterfly主题安装音乐播放器插件"/></a><div class="aside-post-info"><a class="aside-post-title" href="/blog/article/76c6d058.html" title="hexo-butterfly主题安装音乐播放器插件">hexo-butterfly主题安装音乐播放器插件</a><time class="aside-post_meta post-meta-date" datetime="2020-08-06T17:48:45.000Z" title="发表于 2020-08-07 01:48:45">2020-08-07</time></div></div><div class="aside-recent-post"><a class="aside-post-cover" href="/blog/article/4855aed0.html" title="修改hosts解决github访问慢的问题"><img class="aside-post-bg" data-lazy-src="https://cdn.jsdelivr.net/gh/samelehub/CDN@latest/images/cover/07.jpg" onerror="this.onerror=null;this.src='/blog/img/404.jpg'" alt="修改hosts解决github访问慢的问题"/></a><div class="aside-post-info"><a class="aside-post-title" href="/blog/article/4855aed0.html" title="修改hosts解决github访问慢的问题">修改hosts解决github访问慢的问题</a><time class="aside-post_meta post-meta-date" datetime="2020-08-06T10:16:13.000Z" title="发表于 2020-08-06 18:16:13">2020-08-06</time></div></div><div class="aside-recent-post"><a class="aside-post-cover" href="/blog/article/d87f7e0c.html" title="hexo标签插件"><img class="aside-post-bg" data-lazy-src="https://cdn.jsdelivr.net/gh/samelehub/CDN@latest/images/cover/06.jpg" onerror="this.onerror=null;this.src='/blog/img/404.jpg'" alt="hexo标签插件"/></a><div class="aside-post-info"><a class="aside-post-title" href="/blog/article/d87f7e0c.html" title="hexo标签插件">hexo标签插件</a><time class="aside-post_meta post-meta-date" datetime="2020-08-04T13:24:39.000Z" title="发表于 2020-08-04 21:24:39">2020-08-04</time></div></div><div class="aside-recent-post"><a class="aside-post-cover" href="/blog/article/824ac3d0.html" title="刷新jsDelivr缓存"><img class="aside-post-bg" data-lazy-src="https://cdn.jsdelivr.net/gh/samelehub/CDN@latest/images/cover/05.jpg" onerror="this.onerror=null;this.src='/blog/img/404.jpg'" alt="刷新jsDelivr缓存"/></a><div class="aside-post-info"><a class="aside-post-title" href="/blog/article/824ac3d0.html" title="刷新jsDelivr缓存">刷新jsDelivr缓存</a><time class="aside-post_meta post-meta-date" datetime="2020-08-04T07:15:36.000Z" title="发表于 2020-08-04 15:15:36">2020-08-04</time></div></div></div></div></div><div class="card-widget card-categories"><div class="card-content"><div class="item-headline"><i class="fas fa-folder-open"></i><span>分类</span></div><ul class="card-category-list">
+            <li class="card-category-list-item "><a class="card-category-list-link" href="/blog/categories/CDN/"><span class="card-category-list-name">CDN</span><span class="card-category-list-count">1</span></a></li><li class="card-category-list-item "><a class="card-category-list-link" href="/blog/categories/Vue/"><span class="card-category-list-name">Vue</span><span class="card-category-list-count">1</span></a></li><li class="card-category-list-item "><a class="card-category-list-link" href="/blog/categories/butterfly/"><span class="card-category-list-name">butterfly</span><span class="card-category-list-count">1</span></a></li><li class="card-category-list-item "><a class="card-category-list-link" href="/blog/categories/github/"><span class="card-category-list-name">github</span><span class="card-category-list-count">2</span></a></li><li class="card-category-list-item "><a class="card-category-list-link" href="/blog/categories/hexo/"><span class="card-category-list-name">hexo</span><span class="card-category-list-count">5</span></a></li><li class="card-category-list-item "><a class="card-category-list-link" href="/blog/categories/html/"><span class="card-category-list-name">html</span><span class="card-category-list-count">2</span></a></li><li class="card-category-list-item "><a class="card-category-list-link" href="/blog/categories/%E6%8F%92%E4%BB%B6/"><span class="card-category-list-name">插件</span><span class="card-category-list-count">1</span></a></li><li class="card-category-list-item "><a class="card-category-list-link" href="/blog/categories/%E7%AC%94%E8%AE%B0/"><span class="card-category-list-name">笔记</span><span class="card-category-list-count">1</span></a></li>
+                       
+            </ul></div></div><div class="card-widget card-tags"><div class="card-content"><div class="item-headline"><i class="fas fa-tags"></i><span>标签</span></div><div class="card-tag-cloud"><a href="/blog/tags/CDN/" style="font-size: 16px; color: #999">CDN</a> <a href="/blog/tags/Vue/" style="font-size: 16px; color: #999">Vue</a> <a href="/blog/tags/butterfly/" style="font-size: 16px; color: #999">butterfly</a> <a href="/blog/tags/github/" style="font-size: 19px; color: #99a1ac">github</a> <a href="/blog/tags/hexo/" style="font-size: 22px; color: #99a9bf">hexo</a> <a href="/blog/tags/html/" style="font-size: 19px; color: #99a1ac">html</a> <a href="/blog/tags/%E6%8F%92%E4%BB%B6/" style="font-size: 16px; color: #999">插件</a> <a href="/blog/tags/%E7%AC%94%E8%AE%B0/" style="font-size: 16px; color: #999">笔记</a></div></div></div><div class="card-widget card-archives"><div class="card-content"><div class="item-headline"><i class="fas fa-archive"></i><span>归档</span></div><ul class="card-archive-list"><li class="card-archive-list-item"><a class="card-archive-list-link" href="/blog/archives/2020/12/"><span class="card-archive-list-date">十二月 2020</span><span class="card-archive-list-count">1</span></a></li><li class="card-archive-list-item"><a class="card-archive-list-link" href="/blog/archives/2020/08/"><span class="card-archive-list-date">八月 2020</span><span class="card-archive-list-count">4</span></a></li><li class="card-archive-list-item"><a class="card-archive-list-link" href="/blog/archives/2020/07/"><span class="card-archive-list-date">七月 2020</span><span class="card-archive-list-count">3</span></a></li></ul></div></div><div class="card-widget card-webinfo"><div class="card-content"><div class="item-headline"><i class="fas fa-chart-line"></i><span>网站资讯</span></div><div class="webinfo"><div class="webinfo-item"><div class="webinfo-article-name">文章数目 :</div><div class="webinfo-article-count">8</div></div><div class="webinfo-item"><div class="webinfo-site-wordcount-name">本站总字数 :</div><div class="webinfo-site-wordcount">11.3k</div></div><div class="webinfo-item">      <div class="webinfo-site-uv-name">本站访客数 :</div><div class="webinfo-site-uv-count" id="busuanzi_value_site_uv"></div></div><div class="webinfo-item"><div class="webinfo-site-name">本站总访问量 :</div><div class="webinfo-site-pv-count" id="busuanzi_value_site_pv"></div></div></div></div></div></div></main><footer id="footer" data-type="color"><div id="footer-wrap"><div class="copyright">&copy;2020 - 2021 By Samele</div><div class="framework-info"><span>框架 </span><a target="_blank" rel="noopener" href="https://hexo.io">Hexo</a><span class="footer-separator">|</span><span>主题 </span><a target="_blank" rel="noopener" href="https://github.com/jerryc127/hexo-theme-butterfly">Butterfly</a></div><div class="footer_custom_text">此时已莺飞草长 爱的人正在路上</div></div></footer></div><section id="rightside"><div id="rightside-config-hide"><button id="darkmode" type="button" title="浅色和深色模式转换"><i class="fas fa-adjust"></i></button></div><div id="rightside-config-show"><button id="rightside_config" type="button" title="设置"><i class="fas fa-cog"></i></button><button id="go-up" type="button" title="回到顶部"><i class="fas fa-arrow-up"></i></button></div></section><div class="search-dialog" id="local-search"><div class="search-dialog__title" id="local-search-title">本地搜索</div><div id="local-input-panel"><div id="local-search-input"><div class="local-search-box"><input class="local-search-box--input" placeholder="搜索文章" type="text"/></div></div></div><hr/><div id="local-search-results"><div id="local-hits"></div><div id="local-stats"><div class="local-search-stats__hr" id="hr"><span>由</span> <a target="_blank" rel="noopener" href="https://github.com/wzpan/hexo-generator-search" style="color:#49B1F5;">hexo-generator-search</a>
+ <span>提供支持</span></div></div></div><span class="search-close-button"><i class="fas fa-times"></i></span></div><div id="search-mask"></div><div><script src="https://cdn.jsdelivr.net/npm/jquery@latest/dist/jquery.min.js"></script><script src="/blog/js/utils.js"></script><script src="/blog/js/main.js"></script><script src="https://cdn.jsdelivr.net/npm/@fancyapps/fancybox@latest/dist/jquery.fancybox.min.js"></script><script src="https://cdn.jsdelivr.net/npm/instant.page/instantpage.min.js" type="module" defer></script><script src="https://cdn.jsdelivr.net/npm/vanilla-lazyload/dist/lazyload.iife.min.js" async></script><script src="/blog/js/search/local-search.js"></script><div class="js-pjax"><script>if (document.getElementsByClassName('mermaid').length) {
+  if (window.mermaidJsLoad) mermaid.init()
+  else {
+    $.getScript('https://cdn.jsdelivr.net/npm/mermaid/dist/mermaid.min.js', function () {
+      window.mermaidJsLoad = true
+      mermaid.initialize({
+        theme: 'default',
+      })
+      true && mermaid.init()
+    })
+  }
+}</script><script async src="//busuanzi.ibruce.info/busuanzi/2.3/busuanzi.pure.mini.js"></script></div><link rel="stylesheet" href="https://samele.icu/blog/css/samele.css"><script data-pjax src="https://samele.icu/blog/js/samele.js"></script><script src="https://cdn.jsdelivr.net/gh/lete114/CDN/Sum/title.js"></script><script src="https://cdn.jsdelivr.net/npm/pjax/pjax.min.js"></script><script>var pjax = new Pjax({
+  elements: 'a:not([target="_blank"])',
+  selectors: [
+    'title',
+    'meta[name=description]',
+    '#config_change',
+    '#body-wrap',
+    '#rightside-config-hide',
+    '#rightside-config-show',
+    '.js-pjax'
+  ],
+  cacheBust: false,
+})
+
+document.addEventListener('pjax:complete', function () {
+  refreshFn()
+
+  $('script[data-pjax]').each(function () {
+    $(this).parent().append($(this).remove())
+  })
+
+  GLOBAL_CONFIG.islazyload && lazyLoadInstance.update()
+
+  typeof chatBtnFn === 'function' && chatBtnFn()
+  typeof panguInit === 'function' && panguInit()
+
+  if (typeof gtag === 'function') {
+    gtag('config', '', {'page_path': window.location.pathname});
+  }
+
+  //typeof loadMeting === 'function' && document.getElementsByClassName('aplayer').length && loadMeting()
+
+})
+
+document.addEventListener('pjax:send', function () {
+  if (window.aplayers) {
+    for (let i = 0; i < window.aplayers.length; i++) {
+      if (!window.aplayers[i].options.fixed) {
+        window.aplayers[i].destroy()
+      }
+    }
+  }
+
+  typeof typed === 'object' && typed.destroy()
+
+  $(window).off('scroll')
+
+  //reset readmode
+  $('body').hasClass('read-mode') && $('body').removeClass('read-mode')
+
+  //reset font-size
+  $('body').css('font-size') !== originFontSize && $('body').css('font-size', parseFloat(originFontSize))
+})</script></div></body></html>
